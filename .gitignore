@@ -1,0 +1,25 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+*.tfvars
+!*.tfvars.example
+
+# Secrets
+.env
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+secrets/
+credentials/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
